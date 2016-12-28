@@ -7,10 +7,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="description" content="Vannak full-stack developer">
+	<meta name="keywords" content="vannak, chhay, full-stack developer, angularjs, rails, software engineer">
 
-    <title>Bootsnav - Bootstrap menu multi purpose header</title>
+    <title>Vannak Chhay</title>
 
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 	                <i class="fa fa-bars"></i>
 	            </button>
-	            <a class="navbar-brand" href="#brand">Logo</a>
+	            <a class="navbar-brand" href="#brand">{VC}</a>
 	        </div>
 	        <!-- End Header Navigation -->
 
@@ -47,103 +47,134 @@
 	        <div class="collapse navbar-collapse" id="navbar-menu">
 
 	            <ul class="nav navbar-nav">
-	                <li class="active scroll"><a href="#home">Home</a></li>
 	                <li class="scroll"><a href="#about">About</a></li>
 	                <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-	                <li class="scroll"><a href="#blog">Blog</a></li>
+	                <!-- <li class="scroll"><a href="#blog">Blog</a></li> -->
 	                <li class="scroll"><a href="#contact">Contact</a></li>
 
 	            </ul>
 	        </div><!-- /.navbar-collapse -->
+					<div class="navbar-header bottom-align">
+						<ul class="nav navbar-nav">
+						  <li><a href="mailto:vannak.chhay1@gmail.com">+ email</a></li>
+						</ul>
+					</div>
 	    </div>
 	</nav>
 
 
-	<div id="home">
-	    -- Content Home --
-	</div>
-	<div id="about" style="height='200px';">
-	    -- Content About --
-	</div>
-	<div id="blog">
-	    -- Content Blog --
-	</div>
-	<div id="contact">
-	    -- Content Contact --
-	</div>
+
 	<div class="container-fluid">
+		<div class="row" id="about">
+		    <div class="col-md-12">
+					<div class="media">
+					  <div class="media-left">
+							<img src="img/learn_small.jpg", class="media-object" %>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Hi, I'm Vannak.</h4>
+							<p>I'm a Full-Stack Developer that's worked in Rails and AngularJS but I'm not afraid to get my hands
+								 dirty learning a new stack.  I've recently graduted from Flatiron's Full-Stack Web Development program and
+								 I'm looking for a rock-star team to join.  I like to solve challenges with a dose of tenacity, creativity, and
+								 awesome attitude.  When I'm not coding and improving my skills, you can find me trying to become a chess master
+								 or learning something new.
+							</p>
+							<p>
+								<a href="/Vannak-Chhay-resume.pdf" class="btn btn-default btn-primary">Here's my Resume</a>
+							</p>
+						</div>
+					</div>
+  <hr>
 	<div class="row" id="portfolio">
 		<div class="col-md-12">
+			<h4>Take a look at what I've built.</h4>
 
 		 			<!-- Start portfolio -->
 							<div id="js-grid-masonry-projects" class="cbp cbp-l-grid-masonry-projects">
 								<!-- Start project 1 -->
-								<div class="cbp-item graphic" style="width: 345px; left: 0px; top: 0px;"><div class="cbp-item-wrapper">
-															<a href="portfolioDetail/project1.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-																<div class="cbp-caption-defaultWrap">
-																	<img src="img/gallery/480x460/img01.jpg" alt="">
-																</div>
-																<div class="cbp-caption-activeWrap">
-																	<div class="cbp-l-caption-zoom">
-																		<div class="cbp-l-caption-body">
-																			<div class="cbp-l-caption-title">Consulatu</div>
-																			<div class="cbp-l-caption-desc">by 99webpage</div>
-																		</div>
-																	</div>
-																</div>
-															</a>
-															<div class="cbp-custom-title">
-																<a href="portfolioDetail/project1.html" class="cbp-singlePage cbp-project-name" rel="nofollow">Consulatu</a>
-															</div>
-														</div></div>
+								<div class="cbp-item web-design">
+									<a href="rienery.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+										<div class="cbp-caption-defaultWrap">
+											<img src="img/rienery_small.jpg" alt="">
+										</div>
+										<div class="cbp-caption-activeWrap">
+											<div class="cbp-l-caption-zoom">
+												<div class="cbp-l-caption-body">
+													<div class="cbp-l-caption-title">Rienery</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
 								<!-- End project 1 -->
 
 								<!-- Start project 2 -->
 								<div class="cbp-item web-design">
-									<a href="portfolioDetail/project2.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+									<a href="learn.html" class="cbp-caption cbp-singlePage" rel="nofollow">
 										<div class="cbp-caption-defaultWrap">
-											<img src="img/gallery/480x460/img02.jpg" alt="">
+											<img src="img/learn_small.jpg" alt="">
 										</div>
 										<div class="cbp-caption-activeWrap">
 											<div class="cbp-l-caption-zoom">
 												<div class="cbp-l-caption-body">
-													<div class="cbp-l-caption-title">Democritum</div>
-													<div class="cbp-l-caption-desc">by 99webpage</div>
+													<div class="cbp-l-caption-title">LearnExchange</div>
 												</div>
 											</div>
 										</div>
 									</a>
-									<div class="cbp-custom-title">
-										<a href="portfolioDetail/project2.html" class="cbp-singlePage cbp-project-name" rel="nofollow">Democritum</a>
-									</div>
 								</div>
 								<!-- End project 2 -->
 
 								<!-- Start project 3 -->
-								<div class="cbp-item logos">
-									<a href="portfolioDetail/project3.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+								<div class="cbp-item web-design">
+									<a href="payoff.html" class="cbp-caption cbp-singlePage" rel="nofollow">
 										<div class="cbp-caption-defaultWrap">
-											<img src="img/gallery/480x460/img03.jpg" alt="">
+											<img src="img/payoff_small.jpg" alt="">
 										</div>
 										<div class="cbp-caption-activeWrap">
 											<div class="cbp-l-caption-zoom">
 												<div class="cbp-l-caption-body">
-													<div class="cbp-l-caption-title">Vulputate</div>
-													<div class="cbp-l-caption-desc">by 99webpage</div>
+													<div class="cbp-l-caption-title">Sinatra Payoff</div>
 												</div>
 											</div>
 										</div>
 									</a>
-									<div class="cbp-custom-title">
-										<a href="portfolioDetail/project3.html" class="cbp-singlePage cbp-project-name" rel="nofollow">Vulputate</a>
-									</div>
 								</div>
 								<!-- End project 3 -->
-							</div>
-							<!-- End portfolio -->
-		</div>
-</div>
 
+								<!-- Start project 4 -->
+								<div class="cbp-item web-design">
+									<a href="stock.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+										<div class="cbp-caption-defaultWrap">
+											<img src="img/stocks_watch_small.jpg" alt="">
+										</div>
+										<div class="cbp-caption-activeWrap">
+											<div class="cbp-l-caption-zoom">
+												<div class="cbp-l-caption-body">
+													<div class="cbp-l-caption-title">Stock Watchlist</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<!-- End project 4 -->
+							<!-- End portfolio -->
+
+		</div>
+	<hr>
+	<!-- <div class="row" id="Blog">
+		<div class="col-md-12">
+	     <h2>Blog</h2>
+		</div>
+	</div>
+	<hr> -->
+	<div class="row" id="contact">
+		<div class="col-md-12">
+       <h4>Send me an email.</h4>
+			 <a class="btn btn-default btn-success" href="mailto:vannak.chhay1@gmail.com">vannak.chhay1@gmail.com</a>
+		</div>
+	</div>
+</div>
 
 
 	<!-- START JAVASCRIPT -->
@@ -152,10 +183,7 @@
     <script src="js/bootstrap.min.js"></script>
 		<script src="js/cubeportfolio/fullwidth.js"></script>
 		<script src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
-		<script src="js/cubeportfolio/masonry-projects.js"></script>
-		<script src="js/cubeportfolio/masonry.js"></script>
-
-    <!-- Bootsnavs -->
+		<script src="js/cubeportfolio/masonry-projects-4column.js"></script>
     <script src="js/bootsnav.js"></script>
 
 </body>
